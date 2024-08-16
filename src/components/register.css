@@ -1,0 +1,77 @@
+
+  .auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('solana2.jpg');
+    background-size: 1900px;
+    background-repeat: no-repeat;
+  }
+  
+  .auth-box {
+    
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(253, 252, 252);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .auth-title {
+    margin-top: 10px;
+    font-size: 30px;
+    color:seagreen;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color:rgb(233, 0, 241);
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #faf8f8;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .auth-button {
+    width: 100%;
+    padding: 10px;
+    background: seagreen;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .auth-button:hover {
+    background: #f30909;
+  }
+  
+  .auth-footer {
+    margin-top: 15px;
+    font-size: 14px;
+    color: seagreen;
+  }
+  
+  .auth-footer a {
+    color: #fc0606;
+    text-decoration: none;
+  }
+  
+  .auth-footer a:hover {
+    text-decoration: none;
+  }
+  

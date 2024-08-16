@@ -1,0 +1,88 @@
+
+.calendar-container {
+  padding: 20px;
+  background-color: #282c34;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rbc-calendar {
+  background-color: #1e2022;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.rbc-toolbar {
+  background-color: #2e2f31;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.rbc-toolbar button {
+  color: #ffffff;
+  background-color: #3b3d40;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.rbc-toolbar button:hover {
+  background-color: #5c5e61;
+}
+
+.rbc-day-bg {
+  background-color: #2b2d2f;
+  transition: background-color 0.3s ease;
+}
+
+.rbc-day-bg:hover {
+  background-color: #3a3c3e;
+}
+
+.rbc-today {
+  background-color: #3e4551 !important;
+  border-radius: 5px;
+}
+
+.rbc-event {
+  background-color: #0073e6 !important;
+  border-radius: 5px;
+  padding: 5px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.rbc-event:hover {
+  transform: scale(1.05);
+  background-color: #005bb5 !important;
+}
+
+.animated-event {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.animated-event:hover {
+  background-color: #ff4081;
+}
+
+.rbc-time-slot {
+  border-top: 1px solid #3b3d40;
+}
+
+.rbc-time-header {
+  background-color: #2e2f31;
+}
+
+.rbc-event-label {
+  color: #ffffff;
+}

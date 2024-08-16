@@ -1,0 +1,53 @@
+.videoCall-container {
+    text-align: center;
+    padding: 266px;
+    color: white;
+    background:url('solana2.jpg');
+  }
+  
+  .videoCall-title {
+    margin-bottom: 16px;
+  }
+  
+  .videoCall-videoContainer {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .videoCall-remoteVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .videoCall-localVideoContainer {
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #e0e0e0;
+  }
+  
+  .videoCall-localVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .videoCall-controls {
+    margin-top: 16px;
+  }
+
+  
